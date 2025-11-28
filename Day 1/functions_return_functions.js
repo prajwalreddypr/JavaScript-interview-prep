@@ -1,6 +1,5 @@
 //functions being returned from other functions
 
-
 function outer(){
     function inner(){
         console.log("Hello Prajwal");
