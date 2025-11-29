@@ -1,0 +1,18 @@
+// let x = 10;
+// x = "ten";
+
+// console.log(x)
+
+// console.log("5" == 5);
+// console.log("5" === 5);
+
+// let x = "10" + 2;
+// console.log(x);
+
+// console.log(null == undefined);
+// console.log(null === undefined);
+
+let namee = "Prajwal";
+let msg = `Hello ${namee}`;
+
+console.log(msg)
