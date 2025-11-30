@@ -50,7 +50,7 @@
 
 
 // Given "12345", sum all its digits.
-let 
+
 
 
 // Check if two strings are equal ignoring case.
