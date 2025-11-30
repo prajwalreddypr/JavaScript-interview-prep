@@ -38,18 +38,47 @@
 
 //Count character frequency of a string into object.
 
-let str ="Hello Paris, Bonjour";
-let frq = {};
+// let str = "Hello Paris, Bonjour";
+// let freq = {};
 
-for(let char of str){
-    if (char == " ") continue;
-    if (char == ",") continue;
+// for (let char of str){
+//     if (char == " ") continue;
+//     if (char == ",") continue;
 
-    if (frq[char]){
-        frq[char] += 1;
-    } else{
-        frq[char] = 1;
-    }
-}
+//     if (freq[char]){
+//         freq[char] += 1;
+//     } else{
+//         freq[char] = 1;
+//     }
+// }
 
-console.log(frq);
+// console.log(freq);
+
+
+//Merge two objects.
+
+let obj1 = {
+    name: "PRajwal",
+    age: 25
+};
+
+let obj2 = {
+    city: "Paris",
+    country: "France"
+};
+
+let merged = {...obj1, ...obj2};
+console.log(merged);
+
+//loop thorugh an object and print kEY AND VALUE
+
+// let country = {
+//     name: "France",
+//     popu: 33, //in billions, just for namesake
+//     capital: "Paris"
+// };
+
+// for (let key in country){
+//     console.log(`${key} -> ${country[key]}`)
+// }
+
