@@ -56,3 +56,46 @@
 // Check if two strings are equal ignoring case.
 
 // Reverse a number (e.g., 123 → 321).
+
+
+
+//printing numbers 1 to 100
+// for(let i=1; i<=100; i++){
+//     console.log(i);
+// }
+
+
+//even numbers between 1 and 50
+
+// for(let n =1; n<= 50; n++){
+//     if(n%2 === 0){
+//         console.log(n);
+//     }
+// }
+
+//sum of numbers from 1 to 100
+// sum = 0;
+
+// for(i=1; i<=100; i++){
+//     sum += i;
+// }
+// console.log(sum);
+
+//looping through the string "javascript "
+// string = "JavaScript";
+
+// for(let char of string){
+//     console.log(char);
+// }
+
+// //reversing a string manually
+
+// let str = "parisLoveCity"
+// let rev_str = "";
+
+// for(let i = str.length - 1; i >=0; i--){
+//     rev_str += str[i];
+// }
+
+// console.log(rev_str);
+
