@@ -99,3 +99,67 @@
 
 // console.log(rev_str);
 
+
+//multiplication table
+// for(i=1; i<=10; i++){
+//     console.log(`7 X ${i} = ${7*i}`);
+// }
+
+
+//counting number of difits in a number:
+
+// let num = 54334653453;
+// let conv = String(num);        //converting to string and finding length aste.
+// let count = conv.length;
+// console.log(count);
+
+//FACTORIAL OF A NUMBER
+// let number = 5;
+// let fact = 1;
+
+// for(let i=1; i<=number; i++){
+//     fact = fact * i;
+// }
+
+// console.log(fact);
+
+
+
+
+//FACTORIAL OF A NUMBER< ONCE AGAIN
+// let num = 4;
+// let fact = 1;
+
+// for(let i=1; i<=num; i++){
+//     fact = fact * i;
+// }
+
+// console.log(fact);
+
+
+//OCCUREENCES OF A LETTER IN A STRING. HERE i
+// let string = "parisIsLovelyCity";
+// let count = 0
+
+// for (let char of string){
+//     if(char =="I" || char == "i"){
+//         count += 1;
+//     }
+// }
+
+// console.log(count);
+
+
+//simple triangle pattern
+
+let rows = 5;
+
+for(let i=1; i<= rows; i++){
+    let pattern = "";
+    for(let j=1; j<=i; j++){
+        pattern += "*";
+    }
+    console.log(pattern);
+}
+
+
