@@ -62,3 +62,31 @@
 
 // console.log(count);
 
+
+
+//CHECKING IF STRING CONTAINS A SUBSTRING
+// const str = "I love Paris";
+// const subString = "is";
+
+// let containsSub = str.includes(subString);
+// console.log(containsSub);
+
+
+
+
+//FIRST NON REPEATING CHARACTER
+//basically if the first index is same as the last index, then its unique. Ashte Simpleeee
+// const str = "aabbcdddeee";
+// let firstUnique = null;
+
+// for(let char of str){
+//     if(str.indexOf(char) == str.lastIndexOf(char)){
+//         firstUnique = char;
+//         break;
+//     }
+// }
+// console.log(firstUnique);
+
+
+
+
