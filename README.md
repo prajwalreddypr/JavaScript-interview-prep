@@ -1,11 +1,10 @@
-# 🚀 JavaScript Interview Prep
+# JavaScript Interview Prep
 
-## 🎯 Goal
+## Goal
 From **Zero to Hero** in JavaScript and algorithmic problem-solving, testing how far I can go in **5 days**.
 
----
 
-## 📌 Progress Updates
+##  Progress Updates
 Covered so far:
 
 ### Core JavaScript Concepts
@@ -15,18 +14,17 @@ Covered so far:
 - **Functions**
 
 ### Array Methods
-- `map`  
-- `reduce`  
-- `filter`
+- map  
+- reduce  
+- filter
 
 ### Common Interview Patterns
 - **Two Pointers**  
 - **Frequency Map / HashMaps**  
 - **Sliding Window**
 
----
 
-## 🛠️ Focus Areas
+## Main Focus Areas
 - Understand and implement **core concepts**.  
 - Practice **real interview-style problems**.  
 - Track **progress and improvements daily**.
