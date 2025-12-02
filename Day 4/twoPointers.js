@@ -48,38 +48,58 @@
 //GIVEN 2 SORTED ARRAYS, MERGE THEM INTO 1 SORTED ARRAY. 
 // algo/method ->we have 2 pointers at the beginnign of each array. compare values arr[i] w/ arr[j]. push the smaller value to the empty sorted array. increment the smaller one and keep doing it, untill one of the arrays end. Append to the sorted array whatever is left. return result.
 
-let sortedArray = function(arr1, arr2){
-    let i = 0;
-    let j = 0;
-    let result = []
+// let sortedArray = function(arr1, arr2){
+//     let i = 0;
+//     let j = 0;
+//     let result = []
 
-    while(i < arr1.length && j < arr2.length){
-        if(arr1[i] < arr2[j]){
-            result.push(arr1[i]);
-            i += 1;
-        }else{
-            result.push(arr2[j]);
-            j += 1
-        }
-    }
+//     while(i < arr1.length && j < arr2.length){
+//         if(arr1[i] < arr2[j]){
+//             result.push(arr1[i]);
+//             i += 1;
+//         }else{
+//             result.push(arr2[j]);
+//             j += 1
+//         }
+//     }
 
-    //adding the remaining ones
-    while(i < arr1.length){
-        result.push(arr1[i]);
-        i += 1;
-    }
+//     //adding the remaining ones
+//     while(i < arr1.length){
+//         result.push(arr1[i]);
+//         i += 1;
+//     }
     
-    while(j < arr2.length){
-        result.push(arr2[j]);
-        j += 1;
-    }
+//     while(j < arr2.length){
+//         result.push(arr2[j]);
+//         j += 1;
+//     }
 
-    return result;
-}
+//     return result;
+// }
 
-console.log(sortedArray([1,3,5], [2,4,6]));
+// console.log(sortedArray([1,3,5], [2,4,6]));
 
 
 
 //MOVE THE ZEROS TO ONE END OF THE ARRAY, WITHOUT AFFECTING THE OTHER ELEMENTES
+// eg: [1,3,12,0,0] -> [1,3,12,0,0]
+            //    i
+            //      j
+
+// let swap = function(arr){
+//     let i =0;
+
+//     for(j = 0; j < arr.length; j++){
+//         if(arr[j] !== 0){
+//             [arr[i], arr[j]] = [arr[j], arr[i]];
+//             i += 1;
+//         }
+//     }
+//     return arr;
+// }
+
+// console.log(swap([0,4,6,0,8,9,5]));
+
+
+
 
