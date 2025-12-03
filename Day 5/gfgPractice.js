@@ -47,5 +47,23 @@
 
 
 
+//FIDNING LARGEST NUMBER INA ARRAY
+
+// arr = [1,2,3,4,5];
+
+// let largest = function(arr){
+//     let maxNum = arr[0];
+
+//     for(let i=0; i < arr.length; i++){
+//         if(arr[i] > maxNum){
+//             maxNum = arr[i];
+//         }
+//     }
+//     return maxNum;
+// }
+
+// console.log(largest([1,2,3,4,5]));
 
 
+
+//
