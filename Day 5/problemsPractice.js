@@ -163,27 +163,82 @@
 
 
 //RETURN THE FIRST NON REPEATING CHARACTER
-let nonRepeating = function(str){
-    let count = {}
+// let nonRepeating = function(str){
+//     let count = {}
 
-    for(let i=0; i<str.length; i++){
-        let char = str[i];
+//     for(let i=0; i<str.length; i++){
+//         let char = str[i];
 
-        if(count[char] == undefined){
-            count[char] = 1;
+//         if(count[char] == undefined){
+//             count[char] = 1;
 
-        }else{
-            count[char] += 1
-        } 
-    }
+//         }else{
+//             count[char] += 1
+//         } 
+//     }
 
 
-    for(let i=0; i < str.length; i++){
-        if(count[str[i]] === 1){
-            return str[i];
-        }
-    }
-    return null;
-}
+//     for(let i=0; i < str.length; i++){
+//         if(count[str[i]] === 1){
+//             return str[i];
+//         }
+//     }
+//     return null;
+// }
 
-console.log(nonRepeating("xxyz"));
+// console.log(nonRepeating("xxyz"));
+
+
+
+//MERGED 2 SORTED ARRAYS inTO A SORTED ARRAY
+
+// let sorted = function(arr1, arr2){
+//     let merged = [];
+//     let i = 0;
+//     let j = 0;
+
+
+//     while( i < arr1.length && j < arr2.length){
+//         if(arr1[i] < arr2[j]){
+//             merged.push(arr1[i]);
+//             i += 1;
+//         }else{
+//             merged.push(arr2[j]);
+//             j += 1;
+//         }
+//     }
+
+//     while( i < arr1.length){
+//         merged.push(arr1[i]);
+//         i += 1;
+//     }
+//     while(j < arr2.length){
+//         merged.push(arr2[j]);
+//         j += 1;
+//     }
+//     return merged;
+// }
+
+// console.log(sorted([1,3,5,7], [2,4,6,8]));
+
+
+
+
+
+//REVERSE WORDS INA STRING WHILE KEEPING THE WORDS SAME
+//EX -> "Hello WOrld" -> "World Hello"
+
+// let revWords = function(str){
+//     let splitWords = str.split(" ");
+//     let reverse = splitWords.reverse();
+//     let revWords = reverse.join(" ");
+    
+//     return revWords;
+// }
+
+// console.log(revWords("Hello world this is Paris"));
+
+
+
+
+
