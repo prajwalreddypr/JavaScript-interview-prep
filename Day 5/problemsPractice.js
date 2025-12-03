@@ -240,5 +240,67 @@
 
 
 
+// //BALANCED PARANTHESES
+// () = balanced
+// ()) = not balanced
+
+// let balanced = function(str){
+//     let stack = [];
+
+//     for(i=0; i < str.length ; i++){
+//         let char = str[i];
+//         if(char === "("){
+//             stack.push(char);
+//         }else if(char === ")"){
+//             if(stack.length === 0){
+//                 return false;
+//             } else{
+//                 stack.pop();
+//             }
+//         }
+//     }
+//     if (stack.length === 0){
+//         return true;
+//     }else{
+//         return false;
+//     }
+// }
+
+// console.log(balanced("(())"));
+// console.log(balanced("((())"));
+
+
+
+
+
+//FINDING DUPLICATES IN A ARRAY
+// let duplicates = function(arr){
+//     let count = {};
+//     let duplicates = [];
+
+//     for(let i=0; i < arr.length; i++){
+//         let num = arr[i];
+
+//         if(count[num] == undefined){
+//             count[num] = 1;
+//         }else{
+//             count[num] += 1;
+//         }
+//     }
+
+//     for(let key in count){
+//         if(count[key] > 1){
+//             duplicates.push(Number(key));
+//         }
+//     }
+//     return duplicates;
+
+    
+// }
+
+// console.log(duplicates([1,1,1,2,3,4,5]));
+
+
+
 
 
