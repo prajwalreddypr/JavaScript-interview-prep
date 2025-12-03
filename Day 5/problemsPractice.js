@@ -70,3 +70,90 @@
 // console.log(maxSubArray([1,2,3,4,5,6], 4));
 
 
+
+//TWO SUM..finally lets see what the buzz is about
+
+// let twoSum = function (arr, target){
+//     let map = {};
+
+//     //iterate over each value from index 0, find needed = target - num;
+//     //check if map has needed, if yes return needed with index. Or else add the num & its index to the map.
+    
+//     for(let i=0; i < arr.length; i++){
+//         let num = arr[i];
+//         let needed = target - num;
+
+//         if(map.hasOwnProperty(needed)){
+//             return [map[needed], i];
+//         }
+//         else{
+//             map[num] = i;
+//         }
+//     }
+//     return null;
+// }
+
+// console.log(twoSum([1,2,3,4,5], 6));
+
+
+
+
+//Q5 BEST TIME TO BUY AND SELL STOCK IN A SINGLE TRANSACTION
+
+// let maxProfit = function(prices){
+//     let minPrice = Infinity;
+//     let maxProfit = 0;
+
+//     for(let price of prices){
+//         minPrice = Math.min(minPrice, price);
+        
+//         let profit = price - minPrice;
+        
+//         maxProfit = Math.max(maxProfit,profit );
+
+//     }
+//     return maxProfit;
+// }
+
+// console.log(maxProfit([7,1,5,3,6,4]));
+
+
+
+
+//MOVING ZEROS TO ONE END WITHOUT AFFEXTING THE ORDER
+// let swap = function(arr){
+//     let i = 0;
+
+//     for(j=0; j<arr.length; j++){
+//         if(arr[j] !== 0){
+//             [arr[i], arr[j]] = [arr[j], arr[i]];
+//             i += 1;
+//         }
+
+//     }
+//     return arr;
+// }
+
+// console.log(swap([0,1,0,3,12]));
+
+
+
+//FIND THE MISSING NUMBER INA ARRAY OF SIZE N.
+// ex = [1,0,3] => n = 3 => 0,1,2,3; 2 is missing
+//simple logic ->  expected sum - actual sum = missing number;
+
+// let missingNum = function(arr){
+//     let n = arr.length;
+//     let actualSum = 0;
+//     let expectedSum = n * (n+1)/2;
+
+//     for(let item of arr){
+//         actualSum += item;
+//     }
+
+//     let missingNum = expectedSum - actualSum;
+//     return missingNum;
+// }
+
+// console.log(missingNum([1,0,3]));
+// console.log(missingNum([0,1]));
